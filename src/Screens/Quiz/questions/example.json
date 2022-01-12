@@ -1,0 +1,85 @@
+{
+  "name": "example",
+  "numberOfQuestions": 3,
+  "type": "multi",
+  "questions": [
+    {
+      "number": 1,
+      "question": "2 + 2?",
+      "options": [
+        {
+          "label": "a",
+          "answer": "22",
+          "value": 0
+        },
+        {
+          "label": "b",
+          "answer": "4",
+          "value": 1
+        },
+        {
+          "label": "c",
+          "answer": "5",
+          "value": 0
+        },
+        {
+          "label": "d",
+          "answer": "3",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "question": "15 * 2?",
+      "options": [
+        {
+          "label": "a",
+          "answer": "20",
+          "value": "0"
+        },
+        {
+          "label": "b",
+          "answer": "13",
+          "value": "0"
+        },
+        {
+          "label": "c",
+          "answer": "30",
+          "value": "1"
+        },
+        {
+          "label": "d",
+          "answer": "17",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "question": "100 / 4?",
+      "options": [
+        {
+          "label": "a",
+          "answer": "25",
+          "value": "1"
+        },
+        {
+          "label": "b",
+          "answer": "20",
+          "value": "0"
+        },
+        {
+          "label": "c",
+          "answer": "10",
+          "value": "0"
+        },
+        {
+          "label": "d",
+          "answer": "15",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

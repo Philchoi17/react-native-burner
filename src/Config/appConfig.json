@@ -1,0 +1,15 @@
+{
+  "PAY_MODE": "TEST",
+  "LANG": "en",
+  "STORYBOOK": false,
+  "PRACTICE": true,
+  "CHAT": true,
+  "JOURNAL": false,
+  "CHAT_EXTRAS": {
+    "MEDIA_UPLOAD": false,
+    "VIDEO": false
+  },
+  "ENDPOINTS": {
+    "twilio": "https://video-3999-lluvsb.twil.io/video-token"
+  }
+}
