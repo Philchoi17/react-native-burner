@@ -177,11 +177,16 @@ export default ({}) => {
         heading: 'Practice',
       }}>
       <Div p="md">
-        <PCText>Practice Screen</PCText>
+        <PCText>Hello there</PCText>
+        <PCButton onPress={() => Logger.debug('hello')}>
+          <PCText>HELLO</PCText>
+        </PCButton>
+
+        {/* <PCText>Practice Screen</PCText>
         <PCProgress type="snail" />
         <PCProgress type="circle" />
         <PCProgress type="pie" />
-        <PCProgress progress={0.5} />
+        <PCProgress progress={0.5} /> */}
 
         {/* <PCLoading /> */}
         {/* <PCVideoChat visible={toggle} close={() => setToggle(false)} />

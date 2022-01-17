@@ -17,12 +17,10 @@ import { PCPendingRequestItem } from '@/Components/PCChat'
 import { PCForm, PCInput, PCSubmitButton } from '@/Components/PCForms'
 import Logger from '@/Utils/Logger'
 import { pendingRequestType, profileType } from '@/Types'
-import { removeItemFromArray } from '@/Utils/misc'
 import { Collections, Keys } from '@/FireNames/Constants'
 import { ChatRoutes } from '@/Screens/SCREENS'
 import { AppStackParams } from '@/Navigators/NavStackParams'
 import { validationSchema } from './validation'
-import RNFirestore from '@react-native-firebase/firestore'
 import { getFirestoreRef } from '@/Utils/fire'
 
 interface PendingRequestProp extends pendingRequestType {
