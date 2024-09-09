@@ -1,6 +1,6 @@
-# GidebBoilerPlate
+# React Native Boilerplate
 
-Boiler Plate for Gideb Projects
+Boiler Plate for React Native Projects
 
 # folder structure -->
 
